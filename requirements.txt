@@ -1,0 +1,15 @@
+pandas
+numpy
+requests
+tqdm
+pyyaml
+beautifulsoup4
+lxml
+lightgbm
+scikit-learn
+matplotlib
+pyqlib
+fire
+loguru
+ruamel.yaml
+jinja2

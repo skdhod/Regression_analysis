@@ -1,0 +1,1733 @@
+{
+  "stock_kline": {
+    "1023": {
+      "symbol": "sh600000",
+      "datalen": 1023,
+      "extra": null,
+      "headers": true,
+      "ok": true,
+      "rows": 1023,
+      "keys": [
+        "close",
+        "day",
+        "high",
+        "low",
+        "open",
+        "volume"
+      ],
+      "first_date": "2022-04-07",
+      "last_date": "2026-06-26",
+      "sample": {
+        "day": "2022-04-07",
+        "open": "8.160",
+        "high": "8.180",
+        "low": "8.060",
+        "close": "8.070",
+        "volume": "31712143"
+      },
+      "raw_is_null": false
+    },
+    "1500": {
+      "symbol": "sh600000",
+      "datalen": 1500,
+      "extra": null,
+      "headers": true,
+      "ok": true,
+      "rows": 1500,
+      "keys": [
+        "close",
+        "day",
+        "high",
+        "low",
+        "open",
+        "volume"
+      ],
+      "first_date": "2020-04-17",
+      "last_date": "2026-06-26",
+      "sample": {
+        "day": "2020-04-17",
+        "open": "10.180",
+        "high": "10.230",
+        "low": "10.150",
+        "close": "10.200",
+        "volume": "22744411"
+      },
+      "raw_is_null": false
+    },
+    "2000": {
+      "symbol": "sh600000",
+      "datalen": 2000,
+      "extra": null,
+      "headers": true,
+      "ok": false,
+      "rows": null,
+      "keys": [],
+      "first_date": null,
+      "last_date": null,
+      "sample": null,
+      "raw_is_null": true
+    },
+    "with_start_end": {
+      "symbol": "sh600000",
+      "datalen": 1023,
+      "extra": {
+        "start_date": "20210101",
+        "end_date": "20260628"
+      },
+      "headers": true,
+      "ok": true,
+      "rows": 1023,
+      "keys": [
+        "close",
+        "day",
+        "high",
+        "low",
+        "open",
+        "volume"
+      ],
+      "first_date": "2022-04-07",
+      "last_date": "2026-06-26",
+      "sample": {
+        "day": "2022-04-07",
+        "open": "8.160",
+        "high": "8.180",
+        "low": "8.060",
+        "close": "8.070",
+        "volume": "31712143"
+      },
+      "raw_is_null": false
+    },
+    "without_headers": {
+      "symbol": "sh600000",
+      "datalen": 1023,
+      "extra": null,
+      "headers": false,
+      "ok": true,
+      "rows": 1023,
+      "keys": [
+        "close",
+        "day",
+        "high",
+        "low",
+        "open",
+        "volume"
+      ],
+      "first_date": "2022-04-07",
+      "last_date": "2026-06-26",
+      "sample": {
+        "day": "2022-04-07",
+        "open": "8.160",
+        "high": "8.180",
+        "low": "8.060",
+        "close": "8.070",
+        "volume": "31712143"
+      },
+      "raw_is_null": false
+    }
+  },
+  "stock_kline_max": {
+    "best": {
+      "symbol": "sh600000",
+      "datalen": 1970,
+      "extra": null,
+      "headers": true,
+      "ok": true,
+      "rows": 1970,
+      "keys": [
+        "close",
+        "day",
+        "high",
+        "low",
+        "open",
+        "volume"
+      ],
+      "first_date": "2018-05-15",
+      "last_date": "2026-06-26",
+      "sample": {
+        "day": "2018-05-15",
+        "open": "11.030",
+        "high": "11.050",
+        "low": "10.880",
+        "close": "10.990",
+        "volume": "23548459"
+      },
+      "raw_is_null": false
+    },
+    "checks": {
+      "1023": {
+        "symbol": "sh600000",
+        "datalen": 1023,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1023,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2022-04-07",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2022-04-07",
+          "open": "8.160",
+          "high": "8.180",
+          "low": "8.060",
+          "close": "8.070",
+          "volume": "31712143"
+        },
+        "raw_is_null": false
+      },
+      "1500": {
+        "symbol": "sh600000",
+        "datalen": 1500,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1500,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2020-04-17",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2020-04-17",
+          "open": "10.180",
+          "high": "10.230",
+          "low": "10.150",
+          "close": "10.200",
+          "volume": "22744411"
+        },
+        "raw_is_null": false
+      },
+      "1800": {
+        "symbol": "sh600000",
+        "datalen": 1800,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1800,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2019-01-21",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2019-01-21",
+          "open": "10.360",
+          "high": "10.460",
+          "low": "10.300",
+          "close": "10.350",
+          "volume": "18947789"
+        },
+        "raw_is_null": false
+      },
+      "1950": {
+        "symbol": "sh600000",
+        "datalen": 1950,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1950,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-06-12",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-06-12",
+          "open": "10.410",
+          "high": "10.410",
+          "low": "10.300",
+          "close": "10.350",
+          "volume": "16085667"
+        },
+        "raw_is_null": false
+      },
+      "1970": {
+        "symbol": "sh600000",
+        "datalen": 1970,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1970,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-05-15",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-05-15",
+          "open": "11.030",
+          "high": "11.050",
+          "low": "10.880",
+          "close": "10.990",
+          "volume": "23548459"
+        },
+        "raw_is_null": false
+      },
+      "1971": {
+        "symbol": "sh600000",
+        "datalen": 1971,
+        "extra": null,
+        "headers": true,
+        "ok": false,
+        "rows": null,
+        "keys": [],
+        "first_date": null,
+        "last_date": null,
+        "sample": null,
+        "raw_is_null": true
+      },
+      "1980": {
+        "symbol": "sh600000",
+        "datalen": 1980,
+        "extra": null,
+        "headers": true,
+        "ok": false,
+        "rows": null,
+        "keys": [],
+        "first_date": null,
+        "last_date": null,
+        "sample": null,
+        "raw_is_null": true
+      },
+      "1999": {
+        "symbol": "sh600000",
+        "datalen": 1999,
+        "extra": null,
+        "headers": true,
+        "ok": false,
+        "rows": null,
+        "keys": [],
+        "first_date": null,
+        "last_date": null,
+        "sample": null,
+        "raw_is_null": true
+      },
+      "2000": {
+        "symbol": "sh600000",
+        "datalen": 2000,
+        "extra": null,
+        "headers": true,
+        "ok": false,
+        "rows": null,
+        "keys": [],
+        "first_date": null,
+        "last_date": null,
+        "sample": null,
+        "raw_is_null": true
+      }
+    }
+  },
+  "factor": {
+    "hfq": {
+      "symbol": "sh600000",
+      "kind": "hfq",
+      "ok": true,
+      "total": 28,
+      "first": {
+        "d": "2025-07-16",
+        "f": "16.6070491973801000"
+      },
+      "format": "javascript_var_assignment"
+    },
+    "qfq": {
+      "symbol": "sh600000",
+      "kind": "qfq",
+      "ok": true,
+      "total": 28,
+      "first": {
+        "d": "2025-07-16",
+        "f": "1.0000000000000000"
+      },
+      "format": "javascript_var_assignment"
+    }
+  },
+  "realtime": {
+    "symbol": "sh600000",
+    "ok": true,
+    "fields_count": 34,
+    "sample": [
+      "浦发银行",
+      "8.860",
+      "8.850",
+      "8.760",
+      "8.890",
+      "8.700",
+      "8.760",
+      "8.770",
+      "52607831",
+      "461588537.000",
+      "1024057",
+      "8.760"
+    ],
+    "note": "Only used for field probing; not used to fill historical amount."
+  },
+  "indices": {
+    "sh000001": {
+      "best": {
+        "symbol": "sh000001",
+        "datalen": 1970,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1970,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-05-15",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-05-15",
+          "open": "3180.425",
+          "high": "3192.807",
+          "low": "3164.518",
+          "close": "3192.118",
+          "volume": "12454905100"
+        },
+        "raw_is_null": false
+      },
+      "checks": {
+        "1023": {
+          "symbol": "sh000001",
+          "datalen": 1023,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1023,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2022-04-07",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2022-04-07",
+            "open": "3267.810",
+            "high": "3290.256",
+            "low": "3236.479",
+            "close": "3236.695",
+            "volume": "40262666000"
+          },
+          "raw_is_null": false
+        },
+        "1500": {
+          "symbol": "sh000001",
+          "datalen": 1500,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1500,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2020-04-17",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2020-04-17",
+            "open": "2835.558",
+            "high": "2854.960",
+            "low": "2830.022",
+            "close": "2838.495",
+            "volume": "24573675000"
+          },
+          "raw_is_null": false
+        },
+        "1800": {
+          "symbol": "sh000001",
+          "datalen": 1800,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1800,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2019-01-21",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2019-01-21",
+            "open": "2599.058",
+            "high": "2618.980",
+            "low": "2599.058",
+            "close": "2610.509",
+            "volume": "16342511500"
+          },
+          "raw_is_null": false
+        },
+        "1950": {
+          "symbol": "sh000001",
+          "datalen": 1950,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1950,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-06-12",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-06-12",
+            "open": "3053.028",
+            "high": "3081.447",
+            "low": "3034.101",
+            "close": "3079.802",
+            "volume": "11327509600"
+          },
+          "raw_is_null": false
+        },
+        "1970": {
+          "symbol": "sh000001",
+          "datalen": 1970,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1970,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-05-15",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-05-15",
+            "open": "3180.425",
+            "high": "3192.807",
+            "low": "3164.518",
+            "close": "3192.118",
+            "volume": "12454905100"
+          },
+          "raw_is_null": false
+        },
+        "1971": {
+          "symbol": "sh000001",
+          "datalen": 1971,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1980": {
+          "symbol": "sh000001",
+          "datalen": 1980,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1999": {
+          "symbol": "sh000001",
+          "datalen": 1999,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "2000": {
+          "symbol": "sh000001",
+          "datalen": 2000,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        }
+      }
+    },
+    "sz399001": {
+      "best": {
+        "symbol": "sz399001",
+        "datalen": 1970,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1970,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-05-15",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-05-15",
+          "open": "10692.821",
+          "high": "10747.993",
+          "low": "10632.546",
+          "close": "10747.993",
+          "volume": "15793263456"
+        },
+        "raw_is_null": false
+      },
+      "checks": {
+        "1023": {
+          "symbol": "sz399001",
+          "datalen": 1023,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1023,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2022-04-07",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2022-04-07",
+            "open": "12101.371",
+            "high": "12205.097",
+            "low": "11971.334",
+            "close": "11972.023",
+            "volume": "47857870369"
+          },
+          "raw_is_null": false
+        },
+        "1500": {
+          "symbol": "sz399001",
+          "datalen": 1500,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1500,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2020-04-17",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2020-04-17",
+            "open": "10562.897",
+            "high": "10624.542",
+            "low": "10507.803",
+            "close": "10527.990",
+            "volume": "40149237971"
+          },
+          "raw_is_null": false
+        },
+        "1800": {
+          "symbol": "sz399001",
+          "datalen": 1800,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1800,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2019-01-21",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2019-01-21",
+            "open": "7591.191",
+            "high": "7661.618",
+            "low": "7578.487",
+            "close": "7626.235",
+            "volume": "20489669351"
+          },
+          "raw_is_null": false
+        },
+        "1950": {
+          "symbol": "sz399001",
+          "datalen": 1950,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1950,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-06-12",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-06-12",
+            "open": "10187.312",
+            "high": "10322.996",
+            "low": "10124.982",
+            "close": "10315.284",
+            "volume": "14256822360"
+          },
+          "raw_is_null": false
+        },
+        "1970": {
+          "symbol": "sz399001",
+          "datalen": 1970,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1970,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-05-15",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-05-15",
+            "open": "10692.821",
+            "high": "10747.993",
+            "low": "10632.546",
+            "close": "10747.993",
+            "volume": "15793263456"
+          },
+          "raw_is_null": false
+        },
+        "1971": {
+          "symbol": "sz399001",
+          "datalen": 1971,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1980": {
+          "symbol": "sz399001",
+          "datalen": 1980,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1999": {
+          "symbol": "sz399001",
+          "datalen": 1999,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "2000": {
+          "symbol": "sz399001",
+          "datalen": 2000,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        }
+      }
+    },
+    "sh000132": {
+      "best": {
+        "symbol": "sh000132",
+        "datalen": 1970,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1970,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-05-15",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-05-15",
+          "open": "6158.380",
+          "high": "6218.058",
+          "low": "6145.866",
+          "close": "6215.613",
+          "volume": "682655300"
+        },
+        "raw_is_null": false
+      },
+      "checks": {
+        "1023": {
+          "symbol": "sh000132",
+          "datalen": 1023,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1023,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2022-04-07",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2022-04-07",
+            "open": "6817.840",
+            "high": "6851.985",
+            "low": "6705.960",
+            "close": "6705.960",
+            "volume": "1744433100"
+          },
+          "raw_is_null": false
+        },
+        "1500": {
+          "symbol": "sh000132",
+          "datalen": 1500,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1500,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2020-04-17",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2020-04-17",
+            "open": "5555.171",
+            "high": "5569.530",
+            "low": "5520.260",
+            "close": "5529.046",
+            "volume": "1210905500"
+          },
+          "raw_is_null": false
+        },
+        "1800": {
+          "symbol": "sh000132",
+          "datalen": 1800,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1800,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2019-01-21",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2019-01-21",
+            "open": "4515.274",
+            "high": "4561.223",
+            "low": "4512.678",
+            "close": "4547.343",
+            "volume": "1188000200"
+          },
+          "raw_is_null": false
+        },
+        "1950": {
+          "symbol": "sh000132",
+          "datalen": 1950,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1950,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-06-12",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-06-12",
+            "open": "5982.568",
+            "high": "6027.496",
+            "low": "5933.335",
+            "close": "6026.158",
+            "volume": "790866000"
+          },
+          "raw_is_null": false
+        },
+        "1970": {
+          "symbol": "sh000132",
+          "datalen": 1970,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1970,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-05-15",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-05-15",
+            "open": "6158.380",
+            "high": "6218.058",
+            "low": "6145.866",
+            "close": "6215.613",
+            "volume": "682655300"
+          },
+          "raw_is_null": false
+        },
+        "1971": {
+          "symbol": "sh000132",
+          "datalen": 1971,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1980": {
+          "symbol": "sh000132",
+          "datalen": 1980,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1999": {
+          "symbol": "sh000132",
+          "datalen": 1999,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "2000": {
+          "symbol": "sh000132",
+          "datalen": 2000,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        }
+      }
+    },
+    "sz399330": {
+      "best": {
+        "symbol": "sz399330",
+        "datalen": 1970,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1970,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-05-15",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-05-15",
+          "open": "4444.242",
+          "high": "4450.783",
+          "low": "4411.313",
+          "close": "4450.783",
+          "volume": "2803332454"
+        },
+        "raw_is_null": false
+      },
+      "checks": {
+        "1023": {
+          "symbol": "sz399330",
+          "datalen": 1023,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1023,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2022-04-07",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2022-04-07",
+            "open": "5571.125",
+            "high": "5626.474",
+            "low": "5523.926",
+            "close": "5527.477",
+            "volume": "3286696027"
+          },
+          "raw_is_null": false
+        },
+        "1500": {
+          "symbol": "sz399330",
+          "datalen": 1500,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1500,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2020-04-17",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2020-04-17",
+            "open": "4599.662",
+            "high": "4629.458",
+            "low": "4584.139",
+            "close": "4598.231",
+            "volume": "5013596644"
+          },
+          "raw_is_null": false
+        },
+        "1800": {
+          "symbol": "sz399330",
+          "datalen": 1800,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1800,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2019-01-21",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2019-01-21",
+            "open": "3175.912",
+            "high": "3209.333",
+            "low": "3169.747",
+            "close": "3190.302",
+            "volume": "3249247663"
+          },
+          "raw_is_null": false
+        },
+        "1950": {
+          "symbol": "sz399330",
+          "datalen": 1950,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1950,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-06-12",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-06-12",
+            "open": "4290.087",
+            "high": "4355.150",
+            "low": "4272.371",
+            "close": "4349.460",
+            "volume": "2568911962"
+          },
+          "raw_is_null": false
+        },
+        "1970": {
+          "symbol": "sz399330",
+          "datalen": 1970,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1970,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-05-15",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-05-15",
+            "open": "4444.242",
+            "high": "4450.783",
+            "low": "4411.313",
+            "close": "4450.783",
+            "volume": "2803332454"
+          },
+          "raw_is_null": false
+        },
+        "1971": {
+          "symbol": "sz399330",
+          "datalen": 1971,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1980": {
+          "symbol": "sz399330",
+          "datalen": 1980,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1999": {
+          "symbol": "sz399330",
+          "datalen": 1999,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "2000": {
+          "symbol": "sz399330",
+          "datalen": 2000,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        }
+      }
+    },
+    "sh000905": {
+      "best": {
+        "symbol": "sh000905",
+        "datalen": 1970,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1970,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-05-15",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-05-15",
+          "open": "5972.162",
+          "high": "6021.016",
+          "low": "5947.457",
+          "close": "6020.570",
+          "volume": "5472154600"
+        },
+        "raw_is_null": false
+      },
+      "checks": {
+        "1023": {
+          "symbol": "sh000905",
+          "datalen": 1023,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1023,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2022-04-07",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2022-04-07",
+            "open": "6321.809",
+            "high": "6364.628",
+            "low": "6221.591",
+            "close": "6221.591",
+            "volume": "19076219200"
+          },
+          "raw_is_null": false
+        },
+        "1500": {
+          "symbol": "sh000905",
+          "datalen": 1500,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1500,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2020-04-17",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2020-04-17",
+            "open": "5354.983",
+            "high": "5377.147",
+            "low": "5309.581",
+            "close": "5318.455",
+            "volume": "13696983300"
+          },
+          "raw_is_null": false
+        },
+        "1800": {
+          "symbol": "sh000905",
+          "datalen": 1800,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1800,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2019-01-21",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2019-01-21",
+            "open": "4354.700",
+            "high": "4395.063",
+            "low": "4352.810",
+            "close": "4373.633",
+            "volume": "7278153100"
+          },
+          "raw_is_null": false
+        },
+        "1950": {
+          "symbol": "sh000905",
+          "datalen": 1950,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1950,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-06-12",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-06-12",
+            "open": "5638.348",
+            "high": "5693.613",
+            "low": "5594.923",
+            "close": "5693.346",
+            "volume": "4664535800"
+          },
+          "raw_is_null": false
+        },
+        "1970": {
+          "symbol": "sh000905",
+          "datalen": 1970,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1970,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-05-15",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-05-15",
+            "open": "5972.162",
+            "high": "6021.016",
+            "low": "5947.457",
+            "close": "6020.570",
+            "volume": "5472154600"
+          },
+          "raw_is_null": false
+        },
+        "1971": {
+          "symbol": "sh000905",
+          "datalen": 1971,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1980": {
+          "symbol": "sh000905",
+          "datalen": 1980,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1999": {
+          "symbol": "sh000905",
+          "datalen": 1999,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "2000": {
+          "symbol": "sh000905",
+          "datalen": 2000,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        }
+      }
+    },
+    "sz399905": {
+      "best": {
+        "symbol": "sz399905",
+        "datalen": 1970,
+        "extra": null,
+        "headers": true,
+        "ok": true,
+        "rows": 1970,
+        "keys": [
+          "close",
+          "day",
+          "high",
+          "low",
+          "open",
+          "volume"
+        ],
+        "first_date": "2018-05-15",
+        "last_date": "2026-06-26",
+        "sample": {
+          "day": "2018-05-15",
+          "open": "5972.162",
+          "high": "6021.016",
+          "low": "5947.457",
+          "close": "6020.570",
+          "volume": "5472154600"
+        },
+        "raw_is_null": false
+      },
+      "checks": {
+        "1023": {
+          "symbol": "sz399905",
+          "datalen": 1023,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1023,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2022-04-07",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2022-04-07",
+            "open": "6321.809",
+            "high": "6364.627",
+            "low": "6221.591",
+            "close": "6221.591",
+            "volume": "19076219200"
+          },
+          "raw_is_null": false
+        },
+        "1500": {
+          "symbol": "sz399905",
+          "datalen": 1500,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1500,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2020-04-17",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2020-04-17",
+            "open": "5354.983",
+            "high": "5377.147",
+            "low": "5309.581",
+            "close": "5318.455",
+            "volume": "13696983300"
+          },
+          "raw_is_null": false
+        },
+        "1800": {
+          "symbol": "sz399905",
+          "datalen": 1800,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1800,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2019-01-21",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2019-01-21",
+            "open": "4354.700",
+            "high": "4395.063",
+            "low": "4352.810",
+            "close": "4373.633",
+            "volume": "7278153100"
+          },
+          "raw_is_null": false
+        },
+        "1950": {
+          "symbol": "sz399905",
+          "datalen": 1950,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1950,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-06-12",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-06-12",
+            "open": "5638.348",
+            "high": "5693.613",
+            "low": "5594.923",
+            "close": "5693.346",
+            "volume": "4664535800"
+          },
+          "raw_is_null": false
+        },
+        "1970": {
+          "symbol": "sz399905",
+          "datalen": 1970,
+          "extra": null,
+          "headers": true,
+          "ok": true,
+          "rows": 1970,
+          "keys": [
+            "close",
+            "day",
+            "high",
+            "low",
+            "open",
+            "volume"
+          ],
+          "first_date": "2018-05-15",
+          "last_date": "2026-06-26",
+          "sample": {
+            "day": "2018-05-15",
+            "open": "5972.162",
+            "high": "6021.016",
+            "low": "5947.457",
+            "close": "6020.570",
+            "volume": "5472154600"
+          },
+          "raw_is_null": false
+        },
+        "1971": {
+          "symbol": "sz399905",
+          "datalen": 1971,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1980": {
+          "symbol": "sz399905",
+          "datalen": 1980,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "1999": {
+          "symbol": "sz399905",
+          "datalen": 1999,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        },
+        "2000": {
+          "symbol": "sz399905",
+          "datalen": 2000,
+          "extra": null,
+          "headers": true,
+          "ok": false,
+          "rows": null,
+          "keys": [],
+          "first_date": null,
+          "last_date": null,
+          "sample": null,
+          "raw_is_null": true
+        }
+      }
+    }
+  },
+  "benchmark_selection": {
+    "上证指数": {
+      "selected": "sh000001",
+      "candidates": [
+        "sh000001"
+      ]
+    },
+    "深证成指": {
+      "selected": "sz399001",
+      "candidates": [
+        "sz399001"
+      ]
+    },
+    "上证100": {
+      "selected": "sh000132",
+      "candidates": [
+        "sh000132"
+      ]
+    },
+    "深证100": {
+      "selected": "sz399330",
+      "candidates": [
+        "sz399330"
+      ]
+    },
+    "中证500": {
+      "selected": "sh000905",
+      "candidates": [
+        "sh000905",
+        "sz399905"
+      ]
+    }
+  }
+}

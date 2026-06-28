@@ -1,0 +1,40 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Runtime logs and experiment caches
+logs/
+mlruns/
+
+# Downloaded/generated market data. Rebuild with run_all.py.
+data/raw/
+data/processed/
+data/qlib/
+
+# Local Qlib source checkout; install pyqlib instead.
+qlib/
+
+# Render/cache intermediates
+outputs/paper/rendered*/
+outputs/paper/*.aux
+outputs/paper/*.log
+outputs/paper/*.out
+outputs/paper/tex_test.*
+outputs/paper/regression_analysis_paper.pdf
+outputs/paper/regression_analysis_paper_fixed.pdf
+outputs/paper/previous_assignment.docx
+outputs/paper/regression_template.docx
+
+# Large prediction dump; the analysis reports and paper are committed.
+outputs/predictions/
+
+# Unrelated local scratch directory
+新建文件夹/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

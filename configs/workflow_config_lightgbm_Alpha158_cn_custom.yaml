@@ -1,0 +1,91 @@
+sys:
+  path: []
+qlib_init:
+  provider_uri: data/qlib/cn_data
+  region: cn
+market: all
+benchmark: SH000001
+data_handler_config:
+  start_time: '2021-01-04'
+  end_time: '2026-06-26'
+  fit_start_time: '2021-01-04'
+  fit_end_time: '2024-04-16'
+  instruments: all
+port_analysis_config: &id001
+  executor:
+    class: SimulatorExecutor
+    module_path: qlib.backtest.executor
+    kwargs:
+      time_per_step: day
+      generate_portfolio_metrics: true
+  strategy:
+    class: TopkDropoutStrategy
+    module_path: qlib.contrib.strategy.signal_strategy
+    kwargs:
+      signal: <PRED>
+      topk: 50
+      n_drop: 5
+  backtest:
+    start_time: '2025-05-23'
+    end_time: '2026-06-25'
+    account: 100000000
+    benchmark: SH000001
+    exchange_kwargs:
+      freq: day
+      limit_threshold: 0.095
+      deal_price: open
+      open_cost: 0.0005
+      close_cost: 0.0015
+      min_cost: 5
+task:
+  model:
+    class: LGBModel
+    module_path: qlib.contrib.model.gbdt
+    kwargs:
+      loss: mse
+      colsample_bytree: 0.8879
+      learning_rate: 0.2
+      subsample: 0.8789
+      lambda_l1: 205.6999
+      lambda_l2: 580.9768
+      max_depth: 8
+      num_leaves: 210
+      num_threads: 20
+  dataset:
+    class: DatasetH
+    module_path: qlib.data.dataset
+    kwargs:
+      handler:
+        class: Alpha158
+        module_path: qlib.contrib.data.handler
+        kwargs:
+          start_time: '2021-01-04'
+          end_time: '2026-06-26'
+          fit_start_time: '2021-01-04'
+          fit_end_time: '2024-04-16'
+          instruments: all
+      segments:
+        train:
+        - '2021-01-04'
+        - '2024-04-16'
+        valid:
+        - '2024-04-17'
+        - '2025-05-22'
+        test:
+        - '2025-05-23'
+        - '2026-06-25'
+  record:
+  - class: SignalRecord
+    module_path: qlib.workflow.record_temp
+    kwargs:
+      model: <MODEL>
+      dataset: <DATASET>
+  - class: SigAnaRecord
+    module_path: qlib.workflow.record_temp
+    kwargs:
+      ana_long_short: false
+      ann_scaler: 252
+  - class: PortAnaRecord
+    module_path: qlib.workflow.record_temp
+    kwargs:
+      config: *id001
